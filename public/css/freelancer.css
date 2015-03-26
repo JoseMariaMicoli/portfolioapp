@@ -473,3 +473,15 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.cloudtags {
+    color: #660033;
+    background-image: url("/images/cloudtags.png");
+    opacity: .9;
+}
+
+.cloudpanel {
+    opacity: .9;
+    background: #3399ff;
+}
+
