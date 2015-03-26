@@ -36,6 +36,13 @@ h6 {
     font-weight: 700;
 }
 
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #3399ff;
+      background: transparent;
+ }
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -58,12 +65,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: transparent;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #3399FF;
+    background-color: transparent;
 }
 
 hr.star-primary {
@@ -82,7 +89,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #3399ff;
+    
+    background-image:url('/images/portada.jpg');
+    background-size:cover;
 }
 
 header .container {
@@ -93,6 +102,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+    opacity: 0.4;
 }
 
 header .intro-text .name {
@@ -165,6 +175,19 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+    color: #3399ff;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #3399ff;
+}
+
+.navbar .navbar-header a:hover {
+    color: #3399ff;
+}
+
+.navbar .navbar-header a:focus {
+    color: #3399ff;
 }
 
 .navbar-default,
